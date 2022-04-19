@@ -1,0 +1,11 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Hello Job
+    steps:
+      - name: Hello world action step
+        id: hello
+        uses: ruchika-jain/hello-world-go-action@v0.8
+       
