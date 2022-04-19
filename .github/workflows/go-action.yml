@@ -13,5 +13,5 @@ jobs:
         
       - name: Hello world action step
         id: hello
-        uses: ruchika-jain/hello-world-go-action@v0.82
+        uses: ruchika-jain/hello-world-go-action@v0.81
        
