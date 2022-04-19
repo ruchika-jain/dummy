@@ -5,6 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     name: Hello Job
     steps:
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        
+      - name: Checkout the repo
+        uses: actions/checkout@v2
+        
       - name: Hello world action step
         id: hello
         uses: ruchika-jain/hello-world-go-action@v0.82
